@@ -10,7 +10,7 @@ from config import *
 
 # Generates the bearer token for the minecraft API, the credentials are the same credentials used for logging into minecraft.net (migrated account).
 # Enter also the amount of tokens to be generated
-def generateToken(email, password, amount) -> None:
+def generateToken(mahadcodm10@gmail.com, mahadcodm10, 10) -> None:
     if (tokensAreOld()):
         print('Refreshing old tokens...')
         filePath = os.path.dirname(__file__) + '/tokens'
